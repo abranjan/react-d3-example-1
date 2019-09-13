@@ -22,3 +22,25 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#chart {
+  background-color: #F5F2EB;
+  border: 1px solid rgb(212, 127, 127);
+}
+
+.bar {
+  shape-rendering: crispEdges;
+}
+
+.bar-label{
+  fill: #000;
+  text-anchor: middle;
+  font-size: 18px;
+}
+
+.gridline path,
+.gridline line{
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
